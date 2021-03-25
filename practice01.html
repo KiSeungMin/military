@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="practice01.js"></script>
+    <link rel="stylesheet" href="practice01.css">
+    <title>Practice01</title>
+</head>
+<body>
+    <div id="container">
+        <fieldset id="mili">
+            <legend>
+                분야
+            </legend>
+
+            <p>어디 소속이십니까?</p>
+
+            <label><input type="radio"  name="mil" value="roka">육</label>
+            <label><input type="radio"  name="mil" value="rokn">해</label>
+            <label><input type="radio"  name="mil" value="rokaf">공</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                입대날짜
+            </legend>
+            <input type="date" id="startday">
+        </fieldset>
+  
+        <input id="sub" type="submit" onclick="plus()" value="제출">
+
+        <table id="mytable">
+            <thead>
+                <tr>
+                    <th>입대</th>
+                    <th>전역</th>
+                    <th>했음</th>
+                    <th>남음</th>
+                    <th>비율</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+            </tbody>
+
+        </table>
+
+    </div>
+</body>
+</html>

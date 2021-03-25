@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+#tabletitle{
+    font-size:30px;
+}
+
+#mytable, fieldset{
+    border:3px solid black;
+    width: 800px;
+}
+
+td{
+    width:160px;
+    border:1px solid black;
+    margin:0;
+    text-align: center;
+    font-size: 15px;
+    color:black;
+}
+
+thead > tr > td{
+    font-size:25px;
+}
+
+#sub{
+    margin-top:10px;
+    margin-bottom:20px;
+}
